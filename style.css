@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a2a2b1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    margin: 20px 0;
+}
+
+.attempt {
+    margin: 10px 0;
+}
+
+input {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    font-weight: 900;
+}
+
+input:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+input.green {
+    background-color: #a4d65e; /* Light green for correct letters */
+    border-color: #76c7c0;
+
+}
+
+input.yellow {
+    background-color: #ffea5a; /* Light yellow for correct letters but wrong position */
+    border-color: #c8b900;
+}
+
+input.white {
+    background-color: #ffffff; /* White for incorrect letters */
+    border-color: #ccc;
+}
+
+.guess {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+#attempts {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #444;
+}
+
+.intro, h2{
+    color: white;
+
+    span{
+        font-size: 50px;
+    }
+}
+
+.spanParent>:nth-child(2){
+    color: white;
+}
+.spanParent>:nth-child(3){
+    color: yellow;
+}
+.spanParent>:nth-child(4){
+    color: grey;
+}
+
+span{
+    color: Green;
+    font-weight: 1000;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
