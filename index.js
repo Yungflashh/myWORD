@@ -1,7 +1,7 @@
 "use strict";
 let container = document.getElementById("container");
 let attemptsContainer = document.getElementById("attempts");
-let wordguess = ["RHYTHM"];
+let wordguess = ["RHYMES"];
 let currentWordIndex = 0;
 let maxAttempts = 5;
 let attempts = 0;
